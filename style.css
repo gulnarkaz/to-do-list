@@ -1,0 +1,20 @@
+.completed {
+    text-decoration: line-through; /* Перечеркивание текста */
+    color: gray; /* Серый цвет текста для завершенных задач */
+}
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+button {
+    margin-left: 10px; /* Отступ для кнопки удаления */
+}
